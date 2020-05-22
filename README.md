@@ -1,6 +1,6 @@
 # deno-react
 
-A simple example of Deno serving react application
+A simple example of Deno serving react application using [oak](https://github.com/oakserver/oak) as server side framework
 
 ### `make start`
 

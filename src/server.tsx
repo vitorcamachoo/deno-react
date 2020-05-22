@@ -1,6 +1,6 @@
-import { Application } from "https://deno.land/x/oak/mod.ts";
-import React from "https://dev.jspm.io/react@16.13.1";
-import ReactDOMServer from "https://dev.jspm.io/react-dom@16.13.1/server";
+import { Application } from "oak";
+import React from "react";
+import ReactDOMServer from "react-dom/server";
 import App from "./App.tsx";
 
 const app = new Application();

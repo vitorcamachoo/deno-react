@@ -10,14 +10,13 @@ app.use(async (ctx) => {
     <!DOCTYPE html>
     <html>
       <head>
-        <title>SSR with RR</title>
+        <title>Deno + React application</title>
       </head>
 
       <body>
         <div id="root">
           ${ReactDOMServer.renderToString(<App />)}
         </div>
-        <script type="module" src=/client.js></script>
       </body>
     </html>
   `;
